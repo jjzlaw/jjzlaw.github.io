@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+@font-face {
+    font-family: Graphik;
+    src: url('fonts/Graphik-Medium.otf');
+}
+
+@font-face {
+	font-family: GraphikItalic;
+	src: url('fonts/Graphik-MediumItalic.otf');
+}
+
+@font-face {
+	font-family: GraphikSuperItalic;
+	src: url('fonts/Graphik-SuperItalic.otf');
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+/*body {
+	background: red;
+}
+*/
+
+/** NAV BAR **/
+
+.navbar {
+	padding: 40px 0px 40px 0px;
+	margin-bottom: 100px;
+	
+	
+}
+
+.navbar-default { 
+	background-color: transparent;
+	border-color: transparent;
+ 	font-size: 15px;
+ 	font-weight:500;
+ 	font-family: 'Graphik';
+ 	border-bottom: 1px solid rgba(2255,255,255,0.4);
+
+ }
+
+.navbar-nav > li > a {
+	padding: 13px 20px 13px 20px;
+
+}
+
+
+ .navbar-default .navbar-nav > li > a:focus, 
+ .navbar-default .navbar-nav > li > a:hover {
+ 	color: rgba(255,255,255,0.7);
+ }
+
+
+ .navbar-default .navbar-nav > .active > a {
+ 	background-color: transparent;
+ 	color: white;
+ 	/*border-style: solid;
+ 	border-color: transparent;
+ 	-webkit-border-radius: 5px;
+ 	-moz-border-radius: 5px;
+ 	border-radius: 5px;*/
+ }
+.navbar-default .navbar-nav > .active > a:hover {
+ 	background-color:  transparent;
+ 	color: #fff;
+ }
+
+
+/** MAIN PAGE **/
+
+
+
+#hero-unit {
+	background: gray;
+	background: #222 url('img/hero-unit.jpg') no-repeat 50% top;
+	position: center;
+	background-size: cover;
+	overflow: hidden;
+	z-index:1;
+	
+}
+
+#hero-unit .inner-container { 
+	font-family: 'Libre Baskerville' ;
+	color: white;
+}
+
+#hero-unit .inner-container h1{ 
+	text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+	padding-bottom: 20px;
+	font-size: 80px;
+	animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1000ms;
+}
+
+#hero-unit .inner-container h4{ 
+	color: #cccccc;	
+	padding-bottom: 40px;
+	font-family: 'Graphik' ;
+	font-weight: 300 ;
+	animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1000ms;
+}
+
+#hero-unit .inner-container .btn{ 
+	background: #CCA876;
+	border: none;
+	padding: 18px 20px 18px 20px;
+	font-weight: 600;
+	font-size: 20px;
+	font-family: 'Graphik';
+	box-shadow: 3px 3px 8px rgba(0,0,0,0.4);
+	animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1000ms;
+}
+
+#learn-more {
+
+}
+
+.jumbotron {
+	background: transparent;
+	margin-bottom: 120px;
+
+}
+
+
+/** ABOUT US **/
+
+#about-us {
+	background: white;
+	
+}
+
+
+#about-us .inner-container {
+	margin-bottom: 120px;
+	margin-top: 120px;
+}
+
+#about-us .img {
+	box-shadow: -20px -20px 0px rgba(242,242,242,1);
+}
+
+#about-us .txt-section {
+
+}
+
+
+#about-us .title-section {
+	font-family: 'Libre Baskerville';
+	margin-bottom: 20px;
+}
+
+#about-us .title-section h1 {
+	text-shadow: -25px -25px 0px rgba(242,242,242,1);
+	position: relative;
+}
+
+#about-us .title-section h1:after {
+    background-color: #CCA876;
+    bottom: -4px;
+    content: ' ';
+    height: 4px;
+    left: 50%;
+    margin-left: -57px;
+    position: absolute;
+    width: 114px;
+}
+
+#about-us .description-section {
+	font-family: 'Graphik';
+}
+
+
+
+#mZubairIntroText {
+	font-weight: 800;
+	font-family: 'Libre Baskerville';
+}
+
+/** OUR VALUES **/
+
+
+
+
+#our-values {
+	background: #1E3051;
+
+}
+
+
+
+#our-values .inner-container {
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+}
+
+#our-values h1 {
+	color: #CCA876;
+	font-family: 'Liber Baskerville';
+	text-shadow: 0px 9px 8px rgba(0,0,0,0.5);
+
+}
+
+#ourText {
+	font-size: 50px;
+}
+#valuesText {
+	font-size: 80px;
+}
+
+#our-values h4 {
+	color: #ffffff;
+	font-size: 24px;
+	font-family: 'GraphikItalic';
+}
+
+
+#our-values .description-section {
+	padding-top: 35px;
+
+}
+
+/** OUR TEAM  **/
+
+#our-team {
+	background: #fff;
+}
+
+#our-team .profile-container {
+	margin-bottom: 100px;
+}
+
+#our-team .title-section {
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+
+#our-team h1 {
+   font-family:'Libre Baskerville';
+   text-shadow: -25px -25px 0px rgba(242,242,242,1);
+   position: relative;
+
+}
+
+#our-team h1:after {
+    background-color: #CCA876;
+    bottom: -4px;
+    content: ' ';
+    height: 4px;
+    left: 50%;
+    margin-left: -57px;
+    position: absolute;
+    width: 114px;
+ }
+
+
+#our-team h3 {
+   font-family:'Graphik';
+   font-weight: 600;
+   font-size: 20px;
+
+}
+
+#our-team h4 {
+   font-family:'GraphikSuperItalic';
+   font-size: 20px;
+
+}
+
+
+#our-team p {
+   font-family:'Graphik';
+ 
+}
+
+
+
+#our-team .image-section {
+
+}
+
+/** OUR PRACTICE AREAS **/ 
+
+#our-practice-areas {
+	background: #1E3051;
+}
+
+#our-practice-areas .panels-container {
+	margin-bottom: 100px;
+}
+
+#our-practice-areas .title-section {
+	padding-top:100px;
+	padding-bottom: 40px;
+
+}
+
+#our-practice-areas .title-container {
+	min-height: 87px;	
+
+}
+
+#our-practice-areas .text-section {
+	padding: 0px 5px 0px 5px;
+}
+
+#our-practice-areas .button-section {
+	padding: 20px 0px 20px 0px;
+}
+
+#our-practice-areas h1 {
+	color: #CCA876;
+	font-family: 'Libre Baskerville';
+	text-shadow: 0px 9px 8px rgba(0,0,0,0.5);
+	font-size: 50px;
+}
+
+#our-practice-areas h4 {
+	font-family: 'Graphik';
+	color: #1E3051;
+}
+
+#our-practice-areas .shipping {
+
+	padding-top:30px;
+}
+
+#our-practice-areas .btn-default {
+    color: #fff;
+    background-color: #CCA876;
+    border-color: transparent;
+}
+
+
+#our-practice-areas .btn-default:hover {
+    color: #fff;
+    background-color: #bf975f; 	
+    border-color: transparent;
+}
+
+
+/** OUR MEMBERSHIPS **/
+
+#our-memberships {
+	background: #fff;
+}
+
+#our-memberships .membership-container {
+	background: #f3f3f3;
+	padding: 100px 0px 100px 0px;
+
+}
+
+#our-memberships .title-container {
+	font-family:'Libre Baskerville';
+	padding-bottom: 20px;
+
+}
+
+
+#our-memberships .title-container h4 {
+	font-size: 25px;
+}
+
+#our-memberships .text-container {
+	font-family: 'Graphik';
+}
+
+
+#our-memberships .text-container h4 {
+	padding: 5px 0px 5px 0px;
+	font-size: 25px;
+	font-weight: 700;
+	color: 000;
+}
+@media(min-width:768px){
+	#JJZ_BG_TEXT img{
+		position: relative;
+		top: 170px;
+		right: 70px;
+	}
+
+	#LAW_BG_TEXT img{
+		position: relative;
+		top: 170px;
+		left: -64px;
+	}
+}
+/** FOOTER CONTAINER **/
+
+footer {
+	background: #020711;
+	color: #fff;
+}
+
+footer .contact-section { 
+	padding: 80px 0px 80px 0px;
+}
+
+footer h2 {
+	color: #CCA876 ;
+}
+
+footer .contact-details { 
+
+}
+
+footer .contact-details h2 { 
+	font-family:'Libre Baskerville';
+	font-size: 45px;
+}
+
+
+footer .contact-details h4 { 
+	font-family:'Libre Baskerville';
+	font-size: 24px;
+	color: #fff;
+	padding-left:5px;
+}
+
+footer .contact-details p { 
+	font-family:'Graphik';
+	font-weight: 200;
+	font-size: 16px;
+	padding-left:5px;
+	color: #fff;
+}
+
+footer .google-maps { 
+	/*background: white;	*/
+ }
+
+
+ /** Title text styling **/
+
+.shortTextTitle{
+	font-size: 40px;
+}
+
+.tallTextTitle {
+	font-size: 120px;
+	font-weight: bold;
+}
+
+
+/** Pages **/
+
+#info-page-unit .navbar-default .navbar-nav > li > a:focus, 
+ .navbar-default .navbar-nav > li > a:hover {
+ 	color: rgba(255,255,255,0.7);
+ }
+
+
+#info-page-unit .navbar-default .navbar-nav > .active > a {
+ 	background-color:  #CCA876;
+ 	color: white;
+ 	border-style: solid;
+ 	border-color: transparent;
+ 	-webkit-border-radius: 5px;
+ 	-moz-border-radius: 5px;
+ 	border-radius: 5px;
+ 	margin-right:15px;
+ }
+#info-page-unit .navbar-default .navbar-nav > .active > a:hover {
+ 	background-color:  #bb8740;
+ 	color: #fff;
+ }
+
+#info-page-unit .margin-resize {
+	margin-bottom:0px;
+}
+
+#info-page-unit {
+	background: gray;
+	background: #020711;
+	position: center;
+	background-size: cover;
+	overflow: hidden;
+	z-index:1;
+	
+}
+
+#info-page-unit .inner-container { 
+	font-family: 'Libre Baskerville' ;
+	color: white;
+}
+
+#info-page-unit .inner-container h1{ 
+	text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+	padding-bottom: 15px;
+	color: #CCA876;
+}
+
+#info-page-unit .inner-container h3{ 
+	text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+	padding-bottom: 15px;
+	color: #CCA876;
+	font-size:20px;
+}
+
+#info-page-unit .inner-container h4{ 
+	color: #cccccc;	
+	padding-bottom: 20px;
+	font-family: 'Graphik' ;
+	font-weight: 300 ;
+	font-size: 20px;
+}
+
+#info-page-unit .inner-container p { 
+	color: #cccccc;	
+	font-family: 'Graphik' ;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+#info-page-unit .right-nav-container { 
+	font-family: 'Graphik' ;
+		background-color: #f2f2f2;
+		padding: 15px 5px 10px 5px;
+}
+
+#info-page-unit .right-nav-container p { 
+	padding: 5px;
+	color: #000;
+	font-family:'Libre Baskerville';
+}
+
+#info-page-unit .right-nav-container ul > li { 
+	color: #000;
+	font-size: 14px;
+}
+
+#info-page-unit .right-nav-container ul > li > a { 
+	color:   #1E3051 ;
+
+}
+
+
+#practices-h1 {
+	font-size: 50px;
+}
+
